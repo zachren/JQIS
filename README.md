@@ -1,0 +1,4 @@
+jqis
+====
+
+jQuery intellisense
