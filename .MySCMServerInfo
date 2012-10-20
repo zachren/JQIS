@@ -1,0 +1,10 @@
+SCMBranch=FotoWeb
+SCMRepository=FotoWare/Templates/XX Templates/prototypes/Autosuggest
+SCMMainlineUUID={2fb47fd6-cd85-41df-9076-2b91b7a1d719}
+SCMBranchRepositoryID=177128
+jquery.caret.js;1840213861;2;1349790324;
+rangy-core.js;970190333;1;1330262856;
+index.html;1136728768;9;1350404863;
+jquery.fw_autosuggest.css;643051307;5;1350406910;
+jquery.fw_autosuggest.less;1126062623;5;1350406910;
+jquery.fw_autosuggest.js;885391434;13;1350408764;

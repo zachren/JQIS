@@ -1,0 +1,54 @@
+div.autosuggest {
+  margin: auto;
+  margin-top: 400px;
+  position: relative;
+}
+div.autosuggest div.autosuggest-text-area {
+  position: relative;
+  z-index: 2;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+div.autosuggest div.autosuggest-text-area:focus {
+  outline: none;
+}
+div.autosuggest div.autosuggest-text-area.accepted {
+  background: #CCFFCC;
+}
+div.autosuggest div.autosuggest-text-area.loader {
+  background: url("http://placehold.it/20x20");
+}
+div.autosuggest div.autosuggest-suggestions-wrapper {
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 1px;
+  z-index: 1;
+  box-shadow: 0px 0px 5px #aaa;
+}
+div.autosuggest div.autosuggest-suggestions-wrapper ul.autosuggest-suggestions {
+  list-style: none;
+  margin: 0;
+  overflow-y: auto;
+}
+div.autosuggest div.autosuggest-suggestions-wrapper ul.autosuggest-suggestions li.suggestion {
+  padding: 2px 5px 2px 5px;
+  cursor: pointer;
+  background: #fafafa;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+div.autosuggest div.autosuggest-suggestions-wrapper ul.autosuggest-suggestions li.suggestion.hidden {
+  display: none;
+}
+div.autosuggest div.autosuggest-suggestions-wrapper ul.autosuggest-suggestions li.suggestion:hover {
+  background: #E0FFFF;
+}
+div.autosuggest div.autosuggest-suggestions-wrapper ul.autosuggest-suggestions li.suggestion.selected,
+div.autosuggest div.autosuggest-suggestions-wrapper ul.autosuggest-suggestions li.suggestion:active {
+  background: #00BFFF;
+  color: #000;
+}
